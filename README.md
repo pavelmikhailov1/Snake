@@ -1,7 +1,8 @@
-# `SNAKE game`
+# **SNAKE game**
 
 ![SNAKE](misc/snake.gif)
-
+<font color="red">Этот текст будет красным</font>
+<span style="color: green">Этот текст будет зеленым</span>
 ## `Цель проекта:`
 	Собственная реализация игры Snake на языке программирования C++. 
 	Отрисовка осуществляется при помощи библиотеки ncurses.h. 
