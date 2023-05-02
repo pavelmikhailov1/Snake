@@ -5,7 +5,7 @@ LINUX =
 
 UNAME =  $(shell uname -s)
 ifeq ($(UNAME), Linux)
-	LINUX += sudo apt-get install libncurses5-dev libncursesw5-dev
+		LINUX += sudo apt-get install libncurses5-dev libncursesw5-dev
 endif
 
 

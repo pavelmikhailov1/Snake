@@ -14,7 +14,7 @@ Snake::Snake() : SnakeNode{10, 10} {
 
 Food::Food(std::vector<SnakeNode>& tail) { foodRebase(tail); }
 
-Game::Game() : Food(this->tail), Snake() {}
+Game::Game() : Snake(), Food(this->tail){}
 
 void Snake::snakeRebase() {
   this->snakeX = 10;

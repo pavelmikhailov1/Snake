@@ -42,7 +42,7 @@ class Food {
   void foodRebase(std::vector<SnakeNode>& tail);
 };
 
-class Game : Food, public Snake {
+class Game : public Snake, Food {
  public:
   bool gameOver{false};
   int direction{kRight};
